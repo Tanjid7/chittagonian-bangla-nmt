@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+BanglaT5,Fine-Tuned,61.54,81.07,79.12,96.85,1162,0

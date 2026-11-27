@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Chittagonian -> Standard Bangla test-set results (beam=4, max length 64).}
+\label{tab:results}
+\begin{tabular}{llrrrr}
+\toprule
+Model & State & BLEU & ROUGE-L & chrF & BERTScore (F1) \\
+\midrule
+mT5-Small & Zero-Shot & 0.02 & 0.07 & 0.09 & 73.94 \\
+mT5-Small & Fine-Tuned & 51.51 & 75.24 & 73.26 & 95.65 \\
+BanglaT5 & Zero-Shot & 0.06 & 2.07 & 6.18 & NaN \\
+BanglaT5 & Fine-Tuned & 61.54 & 81.07 & 79.12 & 96.85 \\
+NLLB-200 & Zero-Shot & 2.25 & 19.66 & 27.18 & 86.11 \\
+NLLB-200 & Fine-Tuned & 60.93 & 80.91 & 79.08 & 96.94 \\
+Bangla-BERT2BERT & Zero-Shot & 0.00 & 0.00 & 0.22 & NaN \\
+Bangla-BERT2BERT & Fine-Tuned & 35.17 & 68.05 & 54.39 & 93.83 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+mT5-Small,Fine-Tuned,51.51,75.24,73.26,95.65,1162,0

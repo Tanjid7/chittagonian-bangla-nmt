@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+NLLB-200,Fine-Tuned,60.93,80.91,79.08,96.94,1162,0

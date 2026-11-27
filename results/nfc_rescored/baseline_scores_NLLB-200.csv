@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+NLLB-200,Zero-Shot,2.25,19.66,27.18,86.11,1162,0

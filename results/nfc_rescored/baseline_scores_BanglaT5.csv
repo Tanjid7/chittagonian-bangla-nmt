@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+BanglaT5,Zero-Shot,0.06,2.07,6.18,,1162,0

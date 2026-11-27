@@ -1,0 +1,2 @@
+Model,State,BLEU,ROUGE-L,chrF,BERTScore (F1),n_test,n_failed
+Bangla-BERT2BERT,Zero-Shot,0.0,0.0,0.22,,1162,0
