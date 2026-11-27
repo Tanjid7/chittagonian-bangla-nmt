@@ -1,0 +1,72 @@
+{
+  "train": {
+    "rows": 6924,
+    "md5": "37a8c7f1d8fbf214ea419aef2f068ec4",
+    "src_len": {
+      "mean_words": 4.57,
+      "median_words": 5.0,
+      "max_words": 19
+    },
+    "tgt_len": {
+      "mean_words": 4.56,
+      "median_words": 5.0,
+      "max_words": 19
+    }
+  },
+  "val": {
+    "rows": 1169,
+    "md5": "3a4467f766b93dab1afe1a4dcb775b47",
+    "src_len": {
+      "mean_words": 5.71,
+      "median_words": 5.0,
+      "max_words": 17
+    },
+    "tgt_len": {
+      "mean_words": 5.71,
+      "median_words": 5.0,
+      "max_words": 17
+    }
+  },
+  "test": {
+    "rows": 1162,
+    "md5": "a523044309350456dad01b182d27d162",
+    "src_len": {
+      "mean_words": 5.55,
+      "median_words": 5.0,
+      "max_words": 18
+    },
+    "tgt_len": {
+      "mean_words": 5.53,
+      "median_words": 5.0,
+      "max_words": 19
+    }
+  },
+  "seed": 42,
+  "split_ratio": "70/15/15, grouped by Bangla sentence (dictionary added to train only)",
+  "overlap_chittagonian": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "overlap_bangla": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "nfc_changed_cells": 7040,
+  "sources_found": {
+    "chatgaiyya": [
+      "Dataset_Chittagong_2.0.csv"
+    ],
+    "dictionary": [
+      "dictionary.csv"
+    ],
+    "ancholik": [
+      "Regional_NER (Raw Sentences).csv"
+    ],
+    "sentiment": [
+      "chattogram_Bengali_English_language_sentiment_analysis.csv"
+    ]
+  },
+  "merged_rows_after_dedup": 7753
+}
